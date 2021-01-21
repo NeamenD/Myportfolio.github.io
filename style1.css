@@ -1,0 +1,31 @@
+body {
+  font-family: "Oxygen", sans-serif;
+  background-image: url("C:\Users\neamen\Desktop\Homework-2\156101_Wallpaper_480x.jpg") !important;
+}
+.contact-form {
+  width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.contact-form h1 {
+  color: darkcyan;
+}
+
+.navbar-brand {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  height: 100%;
+  min-height: 50px;
+  top: 0;
+  font-size: 35px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
