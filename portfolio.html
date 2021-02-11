@@ -13,101 +13,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style1.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
     <title>Portfolio</title>
     <style>
 
-    body{
-        font-family: 'Oxygen', sans-serif;
-
-
-    }
-    .navbar{
-        min-height: 80px;
-
-
-    }
-    .navar-light .navbar-brand{
-        background-color: darkblue;
-    color:white;
-    height: 100%;
-    min-height: 50px;
-    top: 0;
-    font-size: 35px;
-    position: absolute;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-
-    }
-.navbar-nav {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.navbar-nav {
-            font-family: Arial;
-        }
-
-        h1 {
-            color: black ;
-        }
-
-        .figure {
-            overflow: hidden;
-            position: relative;
-            height: 439px;
-            width: 439px;
-        
-        }
-        .figure1 {
-            overflow: hidden;
-            position: relative;
-            width: 439px;
-            
-
-        }
-        .figure2 {
-            overflow: hidden;
-            position: relative;
-            width: 439px;
-            height: 370px;
-            
-    
-            
-
-        }
-
-        .figure-caption {
-            background-color: black;
-            position: absolute;
-            width: 100%;
-            bottom: 0%;
-        }
-
-        .image-caption {
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.952);
-            padding-top: 15px;
-            padding-bottom: 15px;
-        }
-
-        .footer {
-            background-color: rgb(0, 3, 5);
-            position: relative;
-        }
-
-        .footer:before {
-            content: "";
-            display: block;
-            position: absolute;
-            width: 100%;
-            top: 10;
-            height: 30px;
-            background-color: rgb(0, 0, 0);
-        }
-
- .rpg {}
+   
     </style>
     </head>
     
@@ -144,57 +56,104 @@
             </div>
         </nav>
     
-        <div class="container shadow-sm p-3 mb-5 mt-5 bg-white">
-            <h1>Portfolio</h1>
-            <hr class="my-4">
-    
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div id="line"></div>
+        
+        
+            
+        
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <figure class="figure1">
-                        <img src="fbfecbea-3bbf-4ac5-bb28-05472fcff20c.jpg"
-                            alt="Night viwe in Denver">
-                        <figcaption class="figure-caption text-center image-caption">Night</figcaption>
-                    </figure>
+                <!-- peerChat -->
+                <div class='col-4 col-md-3'>
+                    <div class="portPiece">
+                        <a href=" https://tevvels.github.io/Project_One_Deep_Vibrations/index.html" target="_blank">
+                            <img src="assets/Images/deepVibrations.png">
+                            <div class="portName">Deep Vibrations</div>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <figure class="figure2">
-                        <img src="6a9c4111-f7cb-4610-8e64-52255b8c68c0.jpg"
-                            alt="Denver at night">
-                        <figcaption class="figure-caption text-center image-caption">Denver</figcaption>
-                    </figure>
+                <div class='col-5 portDesc'>
+                    <p>
+                    listen to your favorite songs based on your mood
+                    </p>
                 </div>
-    
-                <div class="col-12 col-md-6">
-                    <figure class="figure">
-                        <img src="ce687976-9d69-4ed2-9855-6f50eb9795eb.jpg"
-                            alt="long exposure photo of Denver">
-                        <figcaption class="figure-caption text-center image-caption">Long exposure</figcaption>
-                    </figure>
+                <div class="col-3 portDown">
+                    <a href="https://github.com/Tevvels/Project_One_Deep_Vibrations" target="_blank">
+                        <img src="assets/Images/github icon.png" class="portCon" />
+                    </a>
                 </div>
-    
-    
-                <div class="col-12 col-md-6">
-                    <figure class="figure">
-                        <img src="e6ec1cbd-53ee-4fe8-9e7e-f0c356d937af.jpg "
-                            alt="">
-                        <figcaption class="figure-caption text-center image-caption">Colorado</figcaption>
-                    </figure>
-                </div>
-    
-    
             </div>
+        
+            <div class="row">
+                <!-- Pokemon Horoscope -->
+                <div class='col-4 col-md-3'>
+                    <div class="portPiece">
+                        <a href="https://neamend.github.io/passwordHacksPloiter.github.io/." target="_blank">
+                            <img src="assets/Images/passWord.JPG">
+                            <div class="portName">Password Generator</div>
+                        </a>
+                    </div>
+                </div>
+                <div class='col-5 portDesc'>
+                    <p>
+                        Simply generator a strong and reliable passWord for you and you family!
+                    </p>
+                </div>
+                <div class="col-3 portDown">
+                    <a href="https://github.com/NeamenD/passwordHacksPloiter.github.io" target="_blank">
+                        <img src="assets/Images/github icon.png" class="portCon" />
+                    </a>
+                </div>
+            </div>
+        
+        
+            <div class="row">
+                <!-- Weather Dashboard -->
+                <div class='col-4 col-md-3'>
+                    <div class="portPiece">
+                        <a href="https://neamend.github.io/workdayschedule.github.io/." target="_blank">
+                            <img src="assets/Images/dayScheduler.JPG">
+                            <div class="portName">Workday Schedule</div>
+                        </a>
+                    </div>
+                </div>
+                <div class='col-5 portDesc'>
+                    <p>
+                        Schedule your workday by hours.
+                    </p>
+                </div>
+                <div class="col-3 portDown">
+                    <a href="https://github.com/NeamenD/workdayschedule.github.io" target="_blank">
+                        <img src="assets/Images/github icon.png" class="portCon" />
+                    </a>
+                </div>
+            </div>
+        
+            <div class="row">
+                <!-- Quiz -->
+                <div class='col-4 col-md-3'>
+                    <div class="portPiece">
+                        <a href="https://neamend.github.io/quiztimed.github.io/" target="_blank">
+                            <img src="assets/Images/quizSc.JPG">
+                            <div class="portName">Quiz</div>
+                        </a>
+                    </div>
+                </div>
+                <div class='col-5 portDesc'>
+                    <p>
+                        Take a quiz to test your programming skill.
+                    </p>
+                </div>
+                <div class="col-3 portDown">
+                    <a href="https://github.com/NeamenD/quiztimed.github.io" target="_blank">
+                        <img src="assets/Images/github icon.png" class="portCon" />
+                    </a>
+                </div>
+            </div>
+            
+        
         </div>
-    
-        <footer class="footer mt-auto py-3">
-            <div class="bar"></div>
-            <div class="container">
-                <span class="text-muted">Place sticky footer content here.</span>
-            </div>
+        </body>
+        <footer>
         </footer>
-    
-    </body>
-    
-    </html>
-    
-    
-    
